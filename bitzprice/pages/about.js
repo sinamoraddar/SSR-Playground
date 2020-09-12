@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../components/NavBar/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import NavBar from "../components/NavBar/NavBar";
 
 const about = () => {
