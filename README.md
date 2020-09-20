@@ -1,2 +1,3 @@
 # SSR-Playground
-my playground for ssr projects
+
+my playground for SSR projects

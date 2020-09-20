@@ -16,11 +16,11 @@ const Prices = ({ bpi }) => {
           <strong>{bpi[currency].rate}</strong>
         </li>
         <select onChange={onDropDownChange} className={"form-control"}>
-          <option selected value={"USD"}>
-            USD
-          </option>
+          <option value={"USD"}>USD</option>
           <option value={"EUR"}>EUR</option>
-          <option value={"GBP"}>GBP</option>
+          <option selected value={"GBP"}>
+            GBP
+          </option>
         </select>
       </ul>
     </div>
